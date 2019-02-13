@@ -73,6 +73,9 @@ public class CusumDM extends AbstractChangeDetector {
 
     @Override
     public void input(double x) {
+        System.out.print(x);
+        System.out.print(", ");
+
         // It monitors the error rate
         if (this.isChangeDetected == true || this.isInitialized == false) {
             resetLearning();

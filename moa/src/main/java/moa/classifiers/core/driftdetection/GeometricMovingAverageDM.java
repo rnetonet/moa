@@ -73,6 +73,8 @@ public class GeometricMovingAverageDM extends AbstractChangeDetector {
 
     @Override
     public void input(double x) {
+        System.out.print(x + ", ");
+
         // It monitors the error rate
         if (this.isChangeDetected == true || this.isInitialized == false) {
             resetLearning();

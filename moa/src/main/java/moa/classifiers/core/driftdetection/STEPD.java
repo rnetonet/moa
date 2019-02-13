@@ -115,10 +115,14 @@ public class STEPD extends AbstractChangeDetector {
             Z = Math.abs(ro / no - rr / nr);
             Z = Z - sizeInvertedSum / 2.0;
             Z = Z / Math.sqrt(p * (1.0 - p) * sizeInvertedSum);
-            
+
+            System.out.println(Z);
+
             Z = Statistics.normalProbability(Math.abs(Z));
             Z = 2 * (1 - Z);
-            
+
+
+
             if (Z < alphaDrift) {  // Drift Level
                 this.isChangeDetected = true;
             } else { 
