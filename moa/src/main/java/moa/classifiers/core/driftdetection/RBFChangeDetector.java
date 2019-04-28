@@ -10,11 +10,19 @@ import java.util.*;
 public class RBFChangeDetector extends AbstractChangeDetector {
     private static final long serialVersionUID = 5210470661274384763L;
 
-    // Params
-    // Double alpha = 0.001; // Used for center movimentation
-    Double sigma = 150.0;
-    Double threshold = 0.9;
+    public FloatOption sigma = new FloatOption(
+            "sigma",
+            's',
+            "Gaussian radius limiter",
+            0.1, Float.MIN_NORMAL, Float.MAX_VALUE);
 
+    public FloatOption lambda = new FloatOption(
+            "lambda",
+            'e',
+            "Minimun threshold",
+            0.6, 0.1, Float.MAX_VALUE);
+
+    // Params
     Double actualCenter = null;
     ArrayList<Double> centers = new ArrayList<>();
 
@@ -27,33 +35,40 @@ public class RBFChangeDetector extends AbstractChangeDetector {
 
     @Override
     public void resetLearning() {
-        // this.isChangeDetected = false;
-        // this.isInitialized = false;
+        this.isChangeDetected = false;
     }
 
     @Override
     public void input(double inputData) {
-        if (this.isChangeDetected) {
-            this.isChangeDetected = false;
-            return;
+        if (this.isChangeDetected == true || this.isInitialized == false) {
+            resetLearning();
+            this.isInitialized = true;
         }
 
         Double activation = 0.0D;
-        Double activationMax = this.threshold;
+        Double activationLambda = this.lambda.getValue();
         Double distance = 0.0D;
         Double activatedCenter = null;
 
+        System.out.println("\n# centers: " + centers);
         for (Double center : centers) {
             distance = Math.sqrt(Math.pow(inputData - center, 2.0));
-            activation = Math.exp(-(Math.pow(distance, 2.0)) / (2.0 * Math.pow(this.sigma, 2.0))); //sigmoid function
+            // gaussian
+            activation = Math.exp(-Math.pow(this.sigma.getValue() * distance, 2));
+            // activation = Math.exp(-((Math.pow(distance, 2.0)) / (2.0 * Math.pow(this.sigma.getValue(), 2.0))));
 
-            System.out.println("inputData = " + inputData + ", " + "distance = " + distance + ", " + "activation = " + activation);
+            System.out.println("# - " + center + " | " + "input:" + inputData + " | " + "distance: " + distance + " | "  + "activation:" + activation);
 
-            if (activation > activationMax) {
+            if (activation >= activationLambda) {
                 activatedCenter = center;
-                activationMax = activation;
+                activationLambda = activation;
             }
         }
+
+        this.estimation = activationLambda;
+        this.isChangeDetected = false;
+        this.isWarningZone = false;
+        this.delay = 0;
 
         // assume activation == activatedCenter
         if (activatedCenter == null) {
@@ -66,6 +81,8 @@ public class RBFChangeDetector extends AbstractChangeDetector {
             actualCenter = activatedCenter;
             this.isChangeDetected = true;
         }
+
+        System.out.println("# * activatedCenter:" + activatedCenter + " | " + "activation:" + activationLambda + " | " + "isChangeDetected:" + isChangeDetected);
 
         timeInstant++;
     }

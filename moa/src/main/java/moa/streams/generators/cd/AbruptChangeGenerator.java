@@ -19,7 +19,17 @@
  */
 package moa.streams.generators.cd;
 
+import com.github.javacliparser.FloatOption;
+
+import java.util.Random;
+
 public class AbruptChangeGenerator extends AbstractConceptDriftGenerator {
+
+    public FloatOption minNoiseOption = new FloatOption("minNoiseOption", 'x',
+            "The min value of noise to be added", 0.0, -2.0, 0.0);
+
+    public FloatOption maxNoiseOption = new FloatOption("maxNoiseOption", 'y',
+            "The max value of noise to be added", 0.0, 0.0, 2.0);
 
     @Override
     protected double nextValue() {
@@ -27,6 +37,10 @@ public class AbruptChangeGenerator extends AbstractConceptDriftGenerator {
         double t = this.numInstances % this.period;
         this.change = (t == this.period / 2) ? true : false;
         res = (t < this.period / 2) ? .2 : .8;
-        return res;
+
+        Random r = new Random();
+        double random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
+
+        return res + random;
     }
 }
