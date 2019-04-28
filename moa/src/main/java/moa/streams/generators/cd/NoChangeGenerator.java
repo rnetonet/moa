@@ -19,11 +19,27 @@
  */
 package moa.streams.generators.cd;
 
+import com.github.javacliparser.FloatOption;
+
+import java.util.Random;
+
 public class NoChangeGenerator extends AbstractConceptDriftGenerator {
+
+    public FloatOption minNoiseOption = new FloatOption("minNoiseOption", 'x',
+            "The min value of noise to be added", 0.0, -2.0, 0.0);
+
+    public FloatOption maxNoiseOption = new FloatOption("maxNoiseOption", 'y',
+            "The max value of noise to be added", 0.0, 0.0, 2.0);
 
     @Override
     protected double nextValue() {
         double res = .2;
+
+        Random r = new Random();
+        double random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
+
+        res += random;
+
         return res;
     }
 }

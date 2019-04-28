@@ -41,6 +41,8 @@ public class AbruptChangeGenerator extends AbstractConceptDriftGenerator {
         Random r = new Random();
         double random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
 
-        return res + random;
+        res += random;
+
+        return res;
     }
 }
