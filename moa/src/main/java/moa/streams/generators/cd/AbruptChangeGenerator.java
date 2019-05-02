@@ -31,18 +31,35 @@ public class AbruptChangeGenerator extends AbstractConceptDriftGenerator {
     public FloatOption maxNoiseOption = new FloatOption("maxNoiseOption", 'y',
             "The max value of noise to be added", 0.0, 0.0, 2.0);
 
+    private Integer counter = 0;
+    private Double actualRes = 0.2;
+
     @Override
     protected double nextValue() {
-        double res;
-        double t = this.numInstances % this.period;
-        this.change = (t == this.period / 2) ? true : false;
-        res = (t < this.period / 2) ? .2 : .8;
+        this.counter++;
+
+        if (this.counter == this.period) {
+            if (this.actualRes == 0.2) {
+                this.actualRes = 0.8;
+            }
+            else if (this.actualRes == 0.8) {
+                this.actualRes = 0.2;
+            }
+            this.counter = 0;
+            this.change = true;
+        } else {
+            this.change = false;
+        }
+
+//        double res;
+//        double t = this.numInstances % this.period;
+//        this.change = (t == this.period / 2) ? true : false;
+//        res = (t < this.period / 2) ? .2 : .8;
 
         Random r = new Random();
         double random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
 
-        res += random;
 
-        return res;
+        return this.actualRes + random;
     }
 }

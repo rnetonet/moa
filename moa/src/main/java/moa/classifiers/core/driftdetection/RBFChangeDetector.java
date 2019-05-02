@@ -14,13 +14,13 @@ public class RBFChangeDetector extends AbstractChangeDetector {
             "sigma",
             's',
             "Gaussian radius limiter",
-            0.1, Float.MIN_NORMAL, Float.MAX_VALUE);
+            2.0, Float.MIN_NORMAL, Float.MAX_VALUE);
 
     public FloatOption lambda = new FloatOption(
             "lambda",
             'e',
             "Minimun threshold",
-            0.6, 0.1, Float.MAX_VALUE);
+            0.5, 0.1, Float.MAX_VALUE);
 
     // Params
     Double actualCenter = null;
@@ -45,19 +45,18 @@ public class RBFChangeDetector extends AbstractChangeDetector {
             this.isInitialized = true;
         }
 
+        timeInstant++;
+
         Double activation = 0.0D;
         Double activationLambda = this.lambda.getValue();
         Double distance = 0.0D;
         Double activatedCenter = null;
 
-        System.out.println("\n# centers: " + centers);
         for (Double center : centers) {
             distance = Math.sqrt(Math.pow(inputData - center, 2.0));
             // gaussian
             activation = Math.exp(-Math.pow(this.sigma.getValue() * distance, 2));
             // activation = Math.exp(-((Math.pow(distance, 2.0)) / (2.0 * Math.pow(this.sigma.getValue(), 2.0))));
-
-            System.out.println("# - " + center + " | " + "input:" + inputData + " | " + "distance: " + distance + " | "  + "activation:" + activation);
 
             if (activation >= activationLambda) {
                 activatedCenter = center;
@@ -70,21 +69,20 @@ public class RBFChangeDetector extends AbstractChangeDetector {
         this.isWarningZone = false;
         this.delay = 0;
 
-        // assume activation == activatedCenter
         if (activatedCenter == null) {
             centers.add(inputData);
-            actualCenter = inputData;
             activatedCenter = inputData;
         }
 
-        if (! actualCenter.equals(activatedCenter)) {
-            actualCenter = activatedCenter;
-            this.isChangeDetected = true;
+        if (! activatedCenter.equals(actualCenter)) {
+            if (actualCenter == null) {
+                actualCenter = activatedCenter;
+            } else {
+                System.out.println("drift: timeInstant - " + timeInstant + " | input:" + inputData + " | centers: " + centers + " | actualCenter - " + actualCenter + " | activatedCenter - " + activatedCenter + " | distance: " + distance + " | "  + "activation:" + activation);
+                actualCenter = activatedCenter;
+                this.isChangeDetected = true;
+            }
         }
-
-        System.out.println("# * activatedCenter:" + activatedCenter + " | " + "activation:" + activationLambda + " | " + "isChangeDetected:" + isChangeDetected);
-
-        timeInstant++;
     }
 
     @Override

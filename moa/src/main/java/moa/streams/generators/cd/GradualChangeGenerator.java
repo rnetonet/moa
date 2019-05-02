@@ -46,13 +46,18 @@ public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
     protected double nextValue() {
         double res;
 
-        this.change = (this.counter == this.period);
+        if (this.counter == this.period) {
+            this.change = true;
+        } else {
+            this.change = false;
+        }
+
         if (this.change){
             this.counter = 0;
             this.changeDrift = -1 * this.changeDrift;
         }
 
-        this.currentValue += (this.counter * this.changeDrift);
+        this.currentValue += this.changeDrift;
 
         /*
         double t = this.numInstances;
@@ -61,13 +66,16 @@ public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
         res = res > 1.0 ? 1.0 : res;
         */
 
-        Random r = new Random();
-        double random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
+        double random = 0.0;
+        do {
+            Random r = new Random();
+            random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
+        } while (this.currentValue + random < 0 || this.currentValue + random > 1);
 
-        res = this.currentValue + random;
+        res =  + random;
 
         this.counter += 1;
 
-        return res;
+        return this.currentValue;
     }
 }
