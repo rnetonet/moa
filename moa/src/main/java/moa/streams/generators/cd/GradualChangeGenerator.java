@@ -72,8 +72,6 @@ public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
             random = this.minNoiseOption.getValue() + r.nextDouble() * (this.maxNoiseOption.getValue() - this.minNoiseOption.getValue());
         } while (this.currentValue + random < 0 || this.currentValue + random > 1);
 
-        res =  + random;
-
         this.counter += 1;
 
         return this.currentValue;

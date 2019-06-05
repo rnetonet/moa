@@ -2,613 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41230c1d-e14b-4f2d-97ba-e8eb6d9e281f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RBFChangeDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa-release.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/CusumDM.java" beforeDir="false" afterPath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/CusumDM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.java" beforeDir="false" afterPath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/STEPD.java" beforeDir="false" afterPath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/STEPD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/AbstractClassOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/AbstractClassOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/AbstractOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/AbstractOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/ClassOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/ClassOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/FlagOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/FlagOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/JavaCLIParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/JavaCLIParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/ListOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/ListOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/MultiChoiceOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/MultiChoiceOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/Options.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/ClassOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/ClassOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/ClassOptionWithNamesEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/ClassOptionWithNamesEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FileOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FileOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FlagOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FlagOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FloatOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/FloatOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/IntOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/IntOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/OptionsConfigurationPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/OptionsConfigurationPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/OptionsConfigurationPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/OptionsConfigurationPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/StringOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/github/javacliparser/gui/StringOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/ArffLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/ArffLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Attribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Attribute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/AttributesInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/AttributesInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/InstanceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/InstanceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Instances.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Instances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/InstancesHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/InstancesHeader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/MultiLabelPrediction.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/MultiLabelPrediction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/Range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/SamoaToWekaInstanceConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/SamoaToWekaInstanceConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/SparseInstanceData.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/SparseInstanceData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/WekaToSamoaInstanceConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/com/yahoo/labs/samoa/instances/WekaToSamoaInstanceConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/AbstractMOAObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/AbstractMOAObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/DoTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/DoTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/MakeObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/MakeObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/AbstractClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/AbstractClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/AbstractMultiLabelLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/AbstractMultiLabelLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/active/ALUncertainty.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/active/ALUncertainty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/bayes/NaiveBayes.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/bayes/NaiveBayes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/bayes/NaiveBayesMultinomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/bayes/NaiveBayesMultinomial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/BinaryTreeNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/BinaryTreeNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/GaussianNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/GaussianNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/GreenwaldKhannaNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/GreenwaldKhannaNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/NominalAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/NominalAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/VFMLNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/attributeclassobservers/VFMLNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/conditionaltests/NominalAttributeBinaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/conditionaltests/NominalAttributeBinaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/conditionaltests/NumericAttributeBinaryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/conditionaltests/NumericAttributeBinaryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/ADWIN$ListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/ADWIN$ListItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/ADWIN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/ADWIN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/AbstractChangeDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/AbstractChangeDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/CusumDM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/CusumDM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/EDDM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/EDDM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/EnsembleDriftDetectionMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/EnsembleDriftDetectionMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/HDDM_W_Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/HDDM_W_Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/Pettitt.java" beforeDir="false" afterPath="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/Pettitt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/GradualChangeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/GradualChangeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/Pettitt.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/Pettitt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SEEDChangeDetector$SEED.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SEEDChangeDetector$SEED.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SEEDChangeDetector$SEEDWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SEEDChangeDetector$SEEDWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/STEPD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/STEPD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift1ChangeDetector$SeqDrift1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift1ChangeDetector$SeqDrift1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$Reservoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$Reservoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$SeqDrift2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector$SeqDrift2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/splitcriteria/VarianceReductionSplitCriterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/splitcriteria/VarianceReductionSplitCriterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/statisticaltests/Cramer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/statisticaltests/Cramer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/statisticaltests/KNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/core/statisticaltests/KNN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/drift/DriftDetectionMethodClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/drift/DriftDetectionMethodClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/AdaGrad.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/AdaGrad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/Perceptron.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/Perceptron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SGD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SGD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SGDMultiClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SGDMultiClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SPegasos.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/functions/SPegasos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/SAMkNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/SAMkNN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/kNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/kNN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/kNNwithPAWandADWIN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/kNNwithPAWandADWIN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/KDTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/KDTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/LinearNNSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/LinearNNSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NearestNeighbourSearch$MyHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NearestNeighbourSearch$MyHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NearestNeighbourSearch$NeighborList.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NearestNeighbourSearch$NeighborList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NormalizableDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/NormalizableDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/KDTreeNodeSplitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/KDTreeNodeSplitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/KMeansInpiredMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/KMeansInpiredMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/SlidingMidPointOfWidestSide.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/lazy/neighboursearch/kdtrees/SlidingMidPointOfWidestSide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/ADACC.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/ADACC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/ADOB.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/ADOB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AccuracyUpdatedEnsemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AccuracyUpdatedEnsemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AccuracyWeightedEnsemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AccuracyWeightedEnsemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AdaptiveRandomForest$ARFBaseLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AdaptiveRandomForest$ARFBaseLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AdaptiveRandomForest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/AdaptiveRandomForest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/BOLE.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/BOLE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/DACC.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/DACC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/DynamicWeightedMajority.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/DynamicWeightedMajority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/HeterogeneousEnsembleAbstract.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/HeterogeneousEnsembleAbstract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/HeterogeneousEnsembleBlastFadingFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/HeterogeneousEnsembleBlastFadingFactors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LearnNSE.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LearnNSE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LeveragingBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LeveragingBag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LimAttClassifier$CombinationGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LimAttClassifier$CombinationGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LimAttClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/LimAttClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OCBoost.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OCBoost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OnlineAccuracyUpdatedEnsemble.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OnlineAccuracyUpdatedEnsemble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OnlineSmoothBoost.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OnlineSmoothBoost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBag.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBagASHT.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBagASHT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBagAdwin.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBagAdwin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBoost.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBoost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBoostAdwin.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/OzaBoostAdwin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/PairedLearners.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/PairedLearners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/RCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/RCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/RandomRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/RandomRules.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/TemporallyAugmentedClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/TemporallyAugmentedClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/WEKAClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/WEKAClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/WeightedMajorityAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/meta/WeightedMajorityAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MEKAClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MEKAClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MajorityLabelset.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MajorityLabelset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree$MultilabelInactiveLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree$MultilabelInactiveLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree$MultilabelLearningNodeClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree$MultilabelLearningNodeClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/MultilabelHoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/core/splitcriteria/ICVarianceReduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/core/splitcriteria/ICVarianceReduction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/meta/OzaBagAdwinML.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/meta/OzaBagAdwinML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/meta/OzaBagML.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/meta/OzaBagML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$InnerNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$InnerNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$LeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$LeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$MultitargetPerceptron.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$MultitargetPerceptron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$SplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree$SplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multilabel/trees/ISOUPTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/BasicMultiLabelLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/BasicMultiLabelLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/BasicMultiTargetRegressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/BasicMultiTargetRegressor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/functions/MultiTargetNoChange.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/multitarget/functions/MultiTargetNoChange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/AMRulesRegressorOld.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/AMRulesRegressorOld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/AbstractAMRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/AbstractAMRules.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassifierNBayes.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/RuleClassifierNBayes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/NominalRulePredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/NominalRulePredicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/NumericRulePredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/NumericRulePredicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/Rule.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/Rule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/RuleActiveLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/RuleActiveLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/RuleActiveRegressionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/RuleActiveRegressionNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/anomalydetection/AnomalinessRatioScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/anomalydetection/AnomalinessRatioScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/anomalydetection/OddsRatioScore.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/anomalydetection/OddsRatioScore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/conditionaltests/NominalAttributeBinaryRulePredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/conditionaltests/NominalAttributeBinaryRulePredicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/conditionaltests/NumericAttributeBinaryRulePredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/conditionaltests/NumericAttributeBinaryRulePredicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/splitcriteria/SDRSplitCriterionAMRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/splitcriteria/SDRSplitCriterionAMRules.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/splitcriteria/VRSplitCriterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/splitcriteria/VRSplitCriterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/ExpNegErrorWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/ExpNegErrorWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/InverseErrorWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/InverseErrorWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/MinErrorWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/MinErrorWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/OneMinusErrorWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/OneMinusErrorWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/UniformWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/core/voting/UniformWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/BasicFeatureRanking.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/BasicFeatureRanking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/MeritFeatureRanking$RuleInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/MeritFeatureRanking$RuleInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/MeritFeatureRanking.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/MeritFeatureRanking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/WeightedMajorityFeatureRanking$RuleInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/WeightedMajorityFeatureRanking$RuleInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/WeightedMajorityFeatureRanking.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/featureranking/WeightedMajorityFeatureRanking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/functions/Perceptron.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/functions/Perceptron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/meta/RandomAMRulesOld.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/meta/RandomAMRulesOld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearner.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearnerSemiSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearnerSemiSuper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelBSTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelBSTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelBSTreeFloat$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelBSTreeFloat$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelNominalAttributeObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/MultiLabelNominalAttributeObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/SingleVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/attributeclassobservers/SingleVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteralClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteralClassification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteralRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/LearningLiteralRegression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/MultiLabelRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/MultiLabelRule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/ObservableMOAObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/ObservableMOAObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/splitcriteria/MultiTargetVarianceRatio.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/splitcriteria/MultiTargetVarianceRatio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/splitcriteria/MultilabelInformationGain.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/splitcriteria/MultilabelInformationGain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/voting/AbstractErrorWeightedVoteMultiLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/voting/AbstractErrorWeightedVoteMultiLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/voting/InverseErrorWeightedVoteMultiLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/core/voting/InverseErrorWeightedVoteMultiLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/errormeasurers/AbstractMultiTargetErrorMeasurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/errormeasurers/AbstractMultiTargetErrorMeasurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/AdaptiveMultiTargetRegressor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/AdaptiveMultiTargetRegressor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/DominantLabelsClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/DominantLabelsClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/StackedPredictor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/functions/StackedPredictor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/inputselectors/MeritThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/inputselectors/MeritThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceAttributesSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceAttributesSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceOutputAttributesSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceOutputAttributesSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/meta/MultiLabelRandomAMRules.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/meta/MultiLabelRandomAMRules.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/EntropyThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/EntropyThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/StdDevThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/StdDevThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/VarianceThreshold.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/rules/multilabel/outputselectors/VarianceThreshold.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ARFHoeffdingTree$RandomLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ARFHoeffdingTree$RandomLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ARFHoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ARFHoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ASHoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ASHoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/DecisionStump.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/DecisionStump.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$FIMTDDPerceptron.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$FIMTDDPerceptron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$InnerNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$InnerNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$LeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$LeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/FIMTDD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree$AdaLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree$AdaLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree$AdaSplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree$AdaSplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTreeClassifLeaves$LearningNodeHATClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTreeClassifLeaves$LearningNodeHATClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTreeClassifLeaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingAdaptiveTreeClassifLeaves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$ActiveLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$ActiveLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$SplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree$SplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingOptionTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$ActiveLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$ActiveLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$SplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree$SplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTreeClassifLeaves$LearningNodeClassifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTreeClassifLeaves$LearningNodeClassifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTreeClassifLeaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/HoeffdingTreeClassifLeaves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/LimAttHoeffdingTree$LimAttLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/LimAttHoeffdingTree$LimAttLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/LimAttHoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/LimAttHoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ORTO$OptionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ORTO$OptionNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ORTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/ORTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/RandomHoeffdingTree$RandomLearningNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/RandomHoeffdingTree$RandomLearningNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/RandomHoeffdingTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/RandomHoeffdingTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNodeNB.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNodeNB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNodeWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$LeafNodeWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$NominalVirtualNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$NominalVirtualNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$NumericVirtualNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$NumericVirtualNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$SplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2$SplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNodeNB.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNodeNB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNodeWeightedVote.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveLeafNodeWeightedVote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveNominalVirtualNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveNominalVirtualNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveNumericVirtualNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveNumericVirtualNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveSplitNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3$AdaptiveSplitNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/Iadem3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademCommonProcedures.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademCommonProcedures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademGaussianNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademGaussianNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademGreenwaldKhannaNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademGreenwaldKhannaNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademSplitCriterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademSplitCriterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademVFMLNumericAttributeClassObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/classifiers/trees/iadem/IademVFMLNumericAttributeClassObserver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/CFCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/CFCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Cluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Cluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Clustering.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Clustering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Miniball$Miniball_b.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Miniball$Miniball_b.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Miniball.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/Miniball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/cluster/SphereCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/cluster/SphereCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/AbstractClusterer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/AbstractClusterer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/ClusterGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/ClusterGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/CobWeb$CNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/CobWeb$CNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/CobWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/CobWeb.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/KMeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/KMeans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/WekaClusteringAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/WekaClusteringAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/Clustream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/Clustream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/ClustreamKernel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/ClustreamKernel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/WithKmeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustream/WithKmeans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusKernel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusKernel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusTree$BestMergeInNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusTree$BestMergeInNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/ClusTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/Entry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/util/SimpleBudget.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/clustree/util/SimpleBudget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/denstream/MicroCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/denstream/MicroCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/denstream/WithDBSCAN.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/denstream/WithDBSCAN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/CharacteristicVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/CharacteristicVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/DensityGrid.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/DensityGrid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/Dstream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/Dstream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/GridCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/dstream/GridCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/BICO.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/BICO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringTreeHeadNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringTreeHeadNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringTreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/ClusteringTreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/CoresetKMeans.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/CoresetKMeans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/CuckooHashing.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/CuckooHashing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/DietzfelbingerHash.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/kmeanspm/DietzfelbingerHash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/AbstractMacroClusterer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/AbstractMacroClusterer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/ColorArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/ColorArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/NonConvexCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/NonConvexCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/dbscan/DBScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/macro/dbscan/DBScan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/AbstractC.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/AbstractC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/AbstractCBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/AbstractCBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/ISBIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/ISBIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/MyMTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/MyMTree$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/MyMTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/MyMTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/StreamObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/StreamObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AbstractC/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ApproxSTORM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ApproxSTORM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ExactSTORM$ISBNodeExact.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ExactSTORM$ISBNodeExact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ExactSTORM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ExactSTORM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ISBIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/ISBIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/MyMTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/MyMTree$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/MyMTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/MyMTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/STORMBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/STORMBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/StreamObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/StreamObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/Angiulli/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/AnyOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/AnyOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/AnyOutCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/AnyOutCore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/DataSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/DataSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/EMProjectedClustering.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/EMProjectedClustering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/EMTopDownTreeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/AnyOut/util/EMTopDownTreeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/ISBIndex$ISBNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/ISBIndex$ISBNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/ISBIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/ISBIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCOD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCOD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCODBase$EventQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCODBase$EventQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCODBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MCODBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeMicroClusters$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeMicroClusters$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeMicroClusters.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeMicroClusters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeStreamObjects$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeStreamObjects$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeStreamObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MTreeStreamObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MicroCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/MicroCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/StreamObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/StreamObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MCOD/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MyBaseOutlierDetector$StdPrintMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MyBaseOutlierDetector$StdPrintMsg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MyBaseOutlierDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/MyBaseOutlierDetector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/ISBIndex$ISBNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/ISBIndex$ISBNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/ISBIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/ISBIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/MyMTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/MyMTree$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/MyMTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/MyMTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCOD.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCOD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCODBase$EventQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCODBase$EventQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCODBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/SimpleCODBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/StreamObj.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/StreamObj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/SimpleCOD/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/TestSpeed.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/TestSpeed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$1$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$1$Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$3$1IntegerListEuclideanCoordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$3$1IntegerListEuclideanCoordinate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$4$1DoubleListEuclideanCoordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$4$1DoubleListEuclideanCoordinate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/DistanceFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$LeafNodeTrait.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$LeafNodeTrait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$NonLeafNodeTrait.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$NonLeafNodeTrait.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$Query$ResultsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$Query$ResultsIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$RootLeafNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$RootLeafNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$RootNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree$RootNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/MTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/PartitionFunctions$BalancedPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/PartitionFunctions$BalancedPartition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/outliers/utils/mtree/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/BucketManager$Bucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/BucketManager$Bucket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/BucketManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/BucketManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/CoresetCostTriple.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/CoresetCostTriple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/MTRandom.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/MTRandom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/StreamKM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/StreamKM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/TreeCoreset$treeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/TreeCoreset$treeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/TreeCoreset.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/clusterers/streamkm/TreeCoreset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/AutoClassDiscovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/AutoClassDiscovery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/DoubleVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/DoubleVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/GaussianEstimator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/GaussianEstimator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/GreenwaldKhannaQuantileSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/GreenwaldKhannaQuantileSummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/InputStreamProgressMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/InputStreamProgressMonitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/Measurement.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/Measurement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/MiscUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/MiscUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/PropertiesReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/SizeOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/SizeOf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/TimingUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/TimingUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/WekaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/WekaUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/core/utils/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/core/utils/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicAUCImbalancedPerformanceEvaluator$Estimator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicAUCImbalancedPerformanceEvaluator$Estimator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicAUCImbalancedPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicAUCImbalancedPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicClassificationPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicClassificationPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicConceptDriftPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicConceptDriftPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiLabelPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiLabelPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiTargetPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiTargetPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiTargetPerformanceRelativeMeasuresEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicMultiTargetPerformanceRelativeMeasuresEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicRegressionPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/BasicRegressionPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM_GTAnalysis$GTCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM_GTAnalysis$GTCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM_GTAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/CMM_GTAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/EntropyCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/EntropyCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/F1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/F1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/General.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/General.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/LearningEvaluation.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/LearningEvaluation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MeasureCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MeasureCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MembershipMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MembershipMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MultiTargetWindowRegressionPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MultiTargetWindowRegressionPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MultiTargetWindowRegressionPerformanceRelativeMeasuresEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/MultiTargetWindowRegressionPerformanceRelativeMeasuresEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/Separation.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/Separation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/SilhouetteCoefficient.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/SilhouetteCoefficient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/StatisticalCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/StatisticalCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowAUCImbalancedPerformanceEvaluator$Estimator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowAUCImbalancedPerformanceEvaluator$Estimator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowAUCImbalancedPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowAUCImbalancedPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowRegressionPerformanceEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/WindowRegressionPerformanceEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/LearningCurve.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/LearningCurve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/MeanPreviewCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/MeanPreviewCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/Preview.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/Preview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/PreviewCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/PreviewCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/PreviewCollectionLearningCurveWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/evaluation/preview/PreviewCollectionLearningCurveWrapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/AuxiliarTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/BatchCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/BatchCmd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionSelectionPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionSelectionPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionSelectionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionSelectionPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionWithNamesSelectionPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionWithNamesSelectionPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionWithNamesSelectionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/ClassOptionWithNamesSelectionPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUIDefaults.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/GUIDefaults.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/LineGraphViewPanel$PlotTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiLabelTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/MultiTargetTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/PreviewPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/PreviewPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/PreviewTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/PreviewTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/RegressionTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskLauncher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskLauncher$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskTextViewerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskTextViewerPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskTextViewerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TaskTextViewerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TextViewerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TextViewerPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/TextViewerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/TextViewerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/WEKAClassOptionEditComponent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/WEKAClassOptionEditComponent$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/WEKAClassOptionEditComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/WEKAClassOptionEditComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALPreviewPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALPreviewPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel$ParsedPreview.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel$ParsedPreview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/ALTaskTextViewerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/MeasureOverview$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/MeasureOverview$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/MeasureOverview.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/active/MeasureOverview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringAlgoPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringAlgoPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringEvalPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringEvalPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringSetupTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringSetupTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringVisualEvalPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringVisualEvalPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringVisualTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/clustertab/ClusteringVisualTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/colorGenerator/HSVColorGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/colorGenerator/HSVColorGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel$TaskTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel$TaskTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/conceptdrift/CDTaskManagerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierAlgoPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierAlgoPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierEvalPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierEvalPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierSetupTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierSetupTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierVisualEvalPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierVisualEvalPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierVisualTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/outliertab/OutlierVisualTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/AbstractGraphAxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/AbstractGraphAxes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/DataPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/DataPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphAxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphAxes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphCurve.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphCurve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphMultiCurve.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphMultiCurve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphScatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/GraphScatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/ParamGraphAxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/ParamGraphAxes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/PointPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/PointPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunOutlierVisualizer$MyOutlierNotifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunOutlierVisualizer$MyOutlierNotifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunOutlierVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunOutlierVisualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/RunVisualizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamOutlierPanel$ImgPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamOutlierPanel$ImgPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamOutlierPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamOutlierPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamPanel$pointCanvasPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamPanel$pointCanvasPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/StreamPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/WekaExplorer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/WekaExplorer$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/WekaExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/gui/visualization/WekaExplorer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/AbstractClassOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/AbstractClassOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/ClassOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/ClassOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/ClassOptionWithNames.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/ClassOptionWithNames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/DependentOptionsUpdater.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/DependentOptionsUpdater.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/OptionsHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/OptionsHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/options/WEKAClassOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/options/WEKAClassOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/FlixsterDataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/FlixsterDataset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/JesterDataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/JesterDataset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/MovielensDataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/dataset/impl/MovielensDataset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/data/AbstractRecommenderData.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/data/AbstractRecommenderData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/data/impl/MemRecommenderData.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/data/impl/MemRecommenderData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/predictor/impl/BRISMFPredictor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/predictor/impl/BRISMFPredictor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/predictor/impl/BaselinePredictor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/predictor/impl/BaselinePredictor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/DenseVector$DenseVectorIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/DenseVector$DenseVectorIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/DenseVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/DenseVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/SparseVector$SparseVectorIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/SparseVector$SparseVectorIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/SparseVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/SparseVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/Vector.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/recommender/rc/utils/Vector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/ArffFileStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/ArffFileStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/ConceptDriftRealStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/ConceptDriftRealStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/FilteredStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/FilteredStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/ImbalancedStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/ImbalancedStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/IrrelevantFeatureAppenderStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/IrrelevantFeatureAppenderStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiFilteredStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiFilteredStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiLabelFilteredStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiLabelFilteredStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiTargetArffFileStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/MultiTargetArffFileStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/RecurrentConceptDriftStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/RecurrentConceptDriftStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/FileStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/FileStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/RandomRBFGeneratorEvents$GeneratorCluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/RandomRBFGeneratorEvents$GeneratorCluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/RandomRBFGeneratorEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/RandomRBFGeneratorEvents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/SimpleCSVStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/clustering/SimpleCSVStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/AddNoiseFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/AddNoiseFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/RBFFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/RBFFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReLUFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReLUFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/RemoveDiscreteAttributeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/RemoveDiscreteAttributeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter$MapUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter$MapUtil$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter$MapUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter$MapUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/ReplacingMissingValuesFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/SelectAttributesFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/filters/SelectAttributesFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AgrawalGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/AssetNegotiationGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/HyperplaneGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/HyperplaneGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/LEDGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/LEDGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/LEDGeneratorDrift.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/LEDGeneratorDrift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/MixedGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomRBFGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomRBFGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomRBFGeneratorDrift.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomRBFGeneratorDrift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomTreeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/RandomTreeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SEAGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/STAGGERGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/SineGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/TextGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/TextGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/WaveformGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/WaveformGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/WaveformGeneratorDrift.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/WaveformGeneratorDrift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/AbruptChangeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/AbruptChangeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/AbstractConceptDriftGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/AbstractConceptDriftGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/GradualChangeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/cd/GradualChangeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/multilabel/MetaMultilabelGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/streams/generators/multilabel/MetaMultilabelGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/CacheShuffledStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/CacheShuffledStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateConceptDrift.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateConceptDrift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateInterleavedChunks.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateInterleavedChunks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateInterleavedTestThenTrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateInterleavedTestThenTrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelMultiLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelMultiLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelMultiTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelMultiTarget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateModelRegression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateMultipleClusterings.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateMultipleClusterings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateOnlineRecommender.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluateOnlineRecommender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePeriodicHeldOutTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePeriodicHeldOutTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequential.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequential.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialCV.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialCV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialDelayed.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialDelayed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialDelayedCV.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialDelayedCV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiTarget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiTargetSemiSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialMultiTargetSemiSuper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/EvaluatePrequentialRegression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelMultiLabel.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelMultiLabel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelMultiTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelMultiTarget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/LearnModelRegression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/MainTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/MainTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/MeasureStreamSpeed.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/MeasureStreamSpeed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/Plot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/Plot$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/Plot.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/Plot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/RunStreamTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/RunStreamTasks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/StandardTaskMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/StandardTaskMonitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/TaskThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/TaskThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/TaskThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/TaskThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/WriteMultipleStreamsToARFF.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/WriteMultipleStreamsToARFF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/WriteStreamToARFFFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/WriteStreamToARFFFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALMultiParamTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALMultiParamTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALPartitionEvaluationTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALPartitionEvaluationTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALPrequentialEvaluationTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALPrequentialEvaluationTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALTaskThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/ALTaskThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/MetaMainTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/moa/tasks/meta/MetaMainTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/weka/classifiers/meta/MOA.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/weka/classifiers/meta/MOA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/weka/core/MOAUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/weka/core/MOAUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/classes/weka/datagenerators/classifiers/classification/MOA.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/classes/weka/datagenerators/classifiers/classification/MOA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/com/yahoo/labs/samoa/instances/MultiTargetArffLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/com/yahoo/labs/samoa/instances/MultiTargetArffLoaderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractClassifierTestCase$InspectionData.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractClassifierTestCase$InspectionData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractClassifierTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractClassifierTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractMultipleClassifierTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractMultipleClassifierTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractMultipleRegressorTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/AbstractMultipleRegressorTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/meta/HeterogeneousEnsembleBlastTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/meta/HeterogeneousEnsembleBlastTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceOutputAttributesSelectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/classifiers/rules/multilabel/instancetransformers/InstanceOutputAttributesSelectorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/integration/SimpleClusterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/integration/SimpleClusterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/AbstractTestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/AbstractTestHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/DiffUtils$SideBySideDiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/DiffUtils$SideBySideDiff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/DiffUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/DiffUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/FileUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/MoaTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/MoaTestCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/Regression.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/Regression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/SerializedObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/SerializedObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moa/target/test-classes/moa/test/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/moa/target/test-classes/moa/test/Utils.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/weka-package/target/" />
     <ignored path="$PROJECT_DIR$/moa/target/" />
@@ -624,8 +23,11 @@
       <FILTER>moa.gui.*</FILTER>
     </SUITE>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -640,7 +42,12 @@
       <find>estima</find>
       <find>input(</find>
       <find>sigm</find>
+      <find>epsilon</find>
+      <find>drift</find>
     </findStrings>
+    <replaceStrings>
+      <replace>lambda</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -651,7 +58,12 @@
         <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/CusumDM.java" />
         <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.java" />
         <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/STEPD.java" />
+        <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/AbstractChangeDetector.java" />
+        <option value="$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/NoChangeGenerator.java" />
+        <option value="$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/AbruptChangeGenerator.java" />
         <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RBFChangeDetector.java" />
+        <option value="$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/GradualChangeGenerator.java" />
+        <option value="$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/Pettitt.java" />
       </list>
     </option>
   </component>
@@ -662,26 +74,35 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="164" />
     <option name="y" value="20" />
-    <option name="width" value="1350" />
-    <option name="height" value="819" />
+    <option name="width" value="1236" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549935705267" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="moa" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553564597826" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -726,12 +147,34 @@
       <option name="presentableId" value="Default" />
       <updated>1538433923004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add noise option to abrupt drift generator;&#10;Add RBF methor;">
+      <created>1556433606632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556433606632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add noise to concept drift generators">
+      <created>1556486910527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556486910528</updated>
+    </task>
+    <task id="LOCAL-00003" summary="More fixes">
+      <created>1556768131917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556768131917</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="864" extended-state="6" />
+    <frame x="164" y="20" width="1236" height="814" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2804878" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.45278245" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -740,15 +183,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49935815" weight="0.43665767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32793522" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49807444" weight="0.26990554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006418" side_tool="true" weight="0.40431267" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935815" weight="0.32884097" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5019255" side_tool="true" visible="true" weight="0.46870452" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987163" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935815" weight="0.32793522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -761,7 +204,7 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2804878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3267009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -770,15 +213,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292517" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49935815" weight="0.43665767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32793522" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49807444" weight="0.26990554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5006418" side_tool="true" weight="0.40431267" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935815" weight="0.32884097" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5019255" side_tool="true" weight="0.43530998" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4987163" weight="0.32884097" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49935815" weight="0.32793522" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -791,28 +234,13 @@
       <window_info anchor="right" id="Maven" order="9" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add noise option to abrupt drift generator;&#10;Add RBF methor;" />
+    <MESSAGE value="Add noise to concept drift generators" />
+    <MESSAGE value="More fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="More fixes" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/ADWINChangeDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/ADWIN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-245">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/CusumDM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-254">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/EnsembleDriftDetectionMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -820,38 +248,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/EWMAChartDM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="106" column="80" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/HDDM_A_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="48" column="24" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RDDM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1420">
-          <caret line="44" column="17" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -869,13 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/SeqDrift1ChangeDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="40" column="36" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/SEEDChangeDetector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -887,13 +280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="85" column="54" lean-forward="true" selection-start-line="85" selection-start-column="54" selection-end-line="85" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/AbstractChangeDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -932,20 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/Pettitt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="36" selection-start-line="36" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/learners/ChangeDetectorLearner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/AbstractClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -964,20 +336,175 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RBFChangeDetector.java">
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/RandomRBFGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="168">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/test/java/moa/classifiers/drift/DriftDetectionMethodClassifierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/tasks/EvaluateConceptDrift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/drift/DriftDetectionMethodClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/AbstractChangeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/ConceptDriftGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/AbstractConceptDriftGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/NoChangeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/evaluation/BasicConceptDriftPerformanceEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/GradualChangeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RBFChangeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/learners/ChangeDetectorLearner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/streams/generators/cd/AbruptChangeGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="247">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/Pettitt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="105" column="46" selection-start-line="105" selection-start-column="46" selection-end-line="105" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/ADWIN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/RDDM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-861">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/SeqDrift2ChangeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/GeometricMovingAverageDM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="87" column="14" lean-forward="true" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/EWMAChartDM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/SeqDrift1ChangeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="11" selection-end-line="135" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/ADWINChangeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moa/src/main/java/moa/classifiers/core/driftdetection/CusumDM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="100" column="9" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

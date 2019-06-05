@@ -18,20 +18,12 @@
  */
 package moa.classifiers.core.driftdetection;
 
-import com.github.javacliparser.FloatOption;
 import com.github.javacliparser.IntOption;
 import moa.core.ObjectRepository;
 import moa.tasks.TaskMonitor;
 
 import java.util.*;
 
-/**
- * Drift detection method based in Pettitt
- *
- *
- * @author Ruivaldo Neto (rneto@rneto.net)
- * @version $Revision: 7 $
- */
 public class Pettitt extends AbstractChangeDetector {
 
     private static final long serialVersionUID = 5210470661274384763L;
@@ -39,7 +31,8 @@ public class Pettitt extends AbstractChangeDetector {
     public IntOption minNumInstancesOption = new IntOption(
             "minNumInstances",
             'n',
-            "The minimum number of instances before permitting detecting change.",
+            "The minimum number of instances before permitting detecting " +
+                    "change.",
             100, 0, Integer.MAX_VALUE);
 
 
@@ -102,7 +95,6 @@ public class Pettitt extends AbstractChangeDetector {
 
         Integer maxAbsSumData = Arrays.stream(absSumData).max().getAsInt();
 
-        // Find Index
         int newChangePoint = 0;
         for (newChangePoint = 0; newChangePoint < absSumData.length; newChangePoint++) {
             if (absSumData[newChangePoint] == maxAbsSumData) {
@@ -110,18 +102,17 @@ public class Pettitt extends AbstractChangeDetector {
             }
         }
 
-        // First Index
         if (this.changePoint == null) {
             this.changePoint = newChangePoint;
             this.nDataWhenChangePoint = this.dataList.size();
             return;
         }
 
-        // If different, concept drift
         int changePointDelta = newChangePoint - this.changePoint;
         int nDataDelta = dataList.size() - this.nDataWhenChangePoint;
 
-        if (changePointDelta >= this.minNumInstancesOption.getValue() && changePointDelta >= nDataDelta / 2 + 1) {
+        if (changePointDelta >= this.minNumInstancesOption.getValue() &&
+            changePointDelta >= nDataDelta / 2 + 1) {
             this.changePoint = newChangePoint;
             this.nDataWhenChangePoint = this.dataList.size();
 
@@ -131,17 +122,17 @@ public class Pettitt extends AbstractChangeDetector {
         }
     }
 
-    private static int[] rank(Double[] x){
-        int [] R = new int[x.length];
-        if(x.length == 0)return R;
-        Integer [] I = new Integer[x.length];
-        for(int i = 0; i < x.length; i++) {
+    private static int[] rank(Double[] x) {
+        int[] R = new int[x.length];
+        if (x.length == 0) return R;
+        Integer[] I = new Integer[x.length];
+        for (int i = 0; i < x.length; i++) {
             I[i] = i;
         }
-        Arrays.sort(I, (i0, i1) -> (int) Math.signum(x[i0]-x[i1]));
+        Arrays.sort(I, (i0, i1) -> (int) Math.signum(x[i0] - x[i1]));
         int j = 0;
-        for(int i = 0; i < x.length; i++){
-            if(x[I[i]] != x[I[j]])
+        for (int i = 0; i < x.length; i++) {
+            if (x[I[i]] != x[I[j]])
                 j = i;
             R[I[i]] = j;
         }
@@ -150,12 +141,9 @@ public class Pettitt extends AbstractChangeDetector {
 
     @Override
     public void getDescription(StringBuilder sb, int indent) {
-        // TODO Auto-generated method stub
     }
 
     @Override
-    protected void prepareForUseImpl(TaskMonitor monitor,
-                                     ObjectRepository repository) {
-        // TODO Auto-generated method stub
+    protected void prepareForUseImpl(TaskMonitor monitor, ObjectRepository repository) {
     }
 }
