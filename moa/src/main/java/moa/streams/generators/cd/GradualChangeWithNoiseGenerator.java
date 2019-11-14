@@ -23,7 +23,7 @@ import com.github.javacliparser.FloatOption;
 
 import java.util.Random;
 
-public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
+public class GradualChangeWithNoiseGenerator extends AbstractConceptDriftGenerator {
 
     public FloatOption minNoiseOption = new FloatOption("minNoiseOption", 'x',
             "The min value of noise to be added", 0.0, -2.0, 0.0);
@@ -38,7 +38,7 @@ public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
     private Double changeDrift = 0.0;
     private Double currentValue = 0.2;
 
-    public GradualChangeGenerator(){
+    public GradualChangeWithNoiseGenerator(){
         this.changeDrift = (0.6/this.numInstancesConceptOption.getValue());
     }
 
@@ -74,6 +74,6 @@ public class GradualChangeGenerator extends AbstractConceptDriftGenerator {
 
         this.counter += 1;
 
-        return this.currentValue;
+        return this.currentValue + random;
     }
 }
